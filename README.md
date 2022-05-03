@@ -1,3 +1,13 @@
+# Intro & Demo
+
+Polygon is a layer 2 blockchain - it sits on top of the Ethereum blockchain, and is designed to be faster and cheaper to use.
+
+This is a “domain name service” for the Polygon network. At the moment, transactions in Polygon must be done using addresses (i.e. long strings of digits such as 0x03142A7507D0747D97f7F2de88B907e856847421). This is cumbersome to use. It would be easier to have a human-readable name such as “jason.polygon”. I propose to extend the polygon network much like DNS does the internet: mapping human-readable names to machine-native addresses.
+
+The DNS is implemented in the form of a smart contract, using the Solidity programming language. Additionally, APIs using Node.js will be built to enable people to actually use the DNS. Unit tests will be written for the smart contracts, and a live deployment onto the Polygon Mumbai Test Network will be conducted.
+
+[Demo](https://drive.google.com/file/d/1H0lSNXwZdCwdfgt_krR9hCmfxQWKYnKK/view?usp=sharing)
+
 # Setup
 
 - Setup Node.js stuff, make sure your node version is compatible (v16 works for sure).
